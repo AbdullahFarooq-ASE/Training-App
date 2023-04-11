@@ -6,9 +6,6 @@ name: SampleDemo
 trigger:
 - main
 
-pool:
-  name: Default
-
 steps:
 - task: VSBuild@1
   inputs:
